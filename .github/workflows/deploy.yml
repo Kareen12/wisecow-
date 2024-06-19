@@ -24,8 +24,8 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t <your-docker-username>/wisecow:latest .
-          docker push <your-docker-username>/wisecow:latest
+          docker build -t kareen12/wisecow:latest .
+          docker push kareen12/wisecow:latest
 
   deploy:
     runs-on: ubuntu-latest
