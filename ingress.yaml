@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - https://wisecow-omega.vercel.app
+        - wisecow-omega.vercel.app
       secretName: wisecow-tls
   rules:
-    - host: hhttps://wisecow-omega.vercel.app
+    - host: wisecow-omega.vercel.app
       http:
         paths:
           - path: /
