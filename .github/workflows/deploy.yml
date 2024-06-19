@@ -77,7 +77,7 @@ jobs:
           docker push kareen12/wisecow:latest
 
       - name: Set up KUBECONFIG
-        run: echo "${{ secrets.KUBECONFIG }}" > $HOME/.kube/config
+        run: echo "${{ secrets.KUBECONFIG }}" > $Users/Ishik/.kube/config
 
       - name: Apply Kubernetes Manifests
         run: |
